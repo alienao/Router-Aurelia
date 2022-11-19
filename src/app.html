@@ -1,0 +1,20 @@
+<template>
+  <h1>This is my main app</h1>
+  <ul>
+    <li><a route-href="home">Home</a></li>
+    <li><a route-href="about">About</a></li>
+    <li>
+      <a
+        route-href="route: post; params.bind: {slug: 'aurelia-router-tutorial'}"
+        >Aurelia Router Tutorial Post</a
+      >
+    </li>
+    <li>
+      <a
+        route-href="route: post; params.bind: {slug: 'advanced aurelia'}"
+        >Advanced Aurelia Post</a
+      >
+    </li>
+  </ul>
+  <router-view> </router-view>
+</template>
